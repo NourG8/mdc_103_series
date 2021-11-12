@@ -49,18 +49,21 @@ class _LoginPageState extends State<LoginPage> {
             TextField(
               controller: _usernameController,
               decoration: InputDecoration(
-                // Removed filled: true
                 labelText: 'Username',
+                labelStyle: TextStyle(
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
               ),
             ),
             const SizedBox(height: 12.0),
             TextField(
               controller: _passwordController,
               decoration: InputDecoration(
-                // Removed filled: true
                 labelText: 'Password',
+                labelStyle: TextStyle(
+                  color: Theme.of(context).colorScheme.secondary,
+                ),
               ),
-              obscureText: true,
             ),
             const SizedBox(height: 12.0),
             // TODO: Wrap Password with AccentColorOverride (103)
