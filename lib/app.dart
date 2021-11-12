@@ -13,6 +13,7 @@
 // limitations under the License.
 
 import 'package:flutter/material.dart';
+import 'supplemental/cut_corners_border.dart';
 import 'colors.dart';
 import 'home.dart';
 import 'login.dart';
@@ -69,14 +70,15 @@ ThemeData _buildShrineTheme() {
     ),
     // TODO: Add the icon themes (103)
     // TODO: Decorate the inputs (103)
+    // TODO: Decorate the inputs (103)
     inputDecorationTheme: const InputDecorationTheme(
-      focusedBorder: OutlineInputBorder(
+      focusedBorder: CutCornersBorder(
         borderSide: BorderSide(
           width: 2.0,
           color: kShrineBrown900,
         ),
       ),
-      border: OutlineInputBorder(),
+      border: CutCornersBorder(), // Replace code
     ),
   );
 }
