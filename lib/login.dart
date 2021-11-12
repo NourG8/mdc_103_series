@@ -13,6 +13,7 @@
 // limitations under the License.
 
 import 'package:flutter/material.dart';
+import 'package:shrine/colors.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -55,7 +56,7 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 80.0),
             Column(
               children: <Widget>[
-                Image.asset('assets/diamond.png', color: kShrineBlack),
+                Image.asset('assets/diamond.png', color: kShrineBrown900),
                 const SizedBox(height: 16.0),
                 Text(
                   'SHRINE',
@@ -113,7 +114,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderRadius: BorderRadius.all(Radius.circular(7.0)),
                       ),
                     ),
-                  ),
+                  ), onPressed: () {  },
                 ),
                 // TODO: Add an elevation to NEXT (103)
                 // TODO: Add a beveled rectangular border to NEXT (103)
@@ -126,7 +127,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderRadius: BorderRadius.all(Radius.circular(7.0)),
                       ),
                     ),
-                  ),
+                  ), onPressed: () {  },
                 ),
               ],
             ),
