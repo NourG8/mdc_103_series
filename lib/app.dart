@@ -33,6 +33,7 @@ class ShrineApp extends StatelessWidget {
       initialRoute: '/login',
       onGenerateRoute: _getRoute,
       // TODO: Add a theme (103)
+      theme: _kShrineTheme, // New code
     );
   }
 
