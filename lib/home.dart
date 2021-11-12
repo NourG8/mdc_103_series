@@ -27,7 +27,7 @@ class HomePage extends StatelessWidget {
         // TODO: Adjust card heights (103)
         child: Column(
           // TODO: Center items on the card (103)
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             AspectRatio(
               aspectRatio: 18 / 11,
