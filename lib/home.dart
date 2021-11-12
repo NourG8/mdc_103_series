@@ -46,7 +46,9 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: AsymmetricView(products: ProductsRepository.loadProducts(Category.all)),
+      body: AsymmetricView(
+          products: ProductsRepository.loadProducts(Category.all)),
+      resizeToAvoidBottomInset: false,
     );
   }
 }
