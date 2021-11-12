@@ -92,14 +92,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
             const SizedBox(height: 12.0),
             // TODO: Wrap Password with AccentColorOverride (103)
-            TextField(
-              controller: _passwordController,
-              decoration: const InputDecoration(
-                filled: true,
-                labelText: 'Password',
-              ),
-              obscureText: true,
-            ),
+
             ButtonBar(
               children: <Widget>[
                 // TODO: Add a beveled rectangular border to CANCEL (103)
